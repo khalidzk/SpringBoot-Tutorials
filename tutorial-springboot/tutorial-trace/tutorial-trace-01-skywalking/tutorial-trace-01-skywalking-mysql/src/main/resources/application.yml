@@ -1,0 +1,10 @@
+server:
+  port: 44079
+
+spring:
+  # datasource 数据源配置内容
+  datasource:
+    url: jdbc:mysql://${SPRINGBOOT_TUTORIALS_MYSQL_HOST}:3306/springboot_tutorials?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true&rewriteBatchedStatements=true # MySQL Connector/J 8.X 连接的示例
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: springboot_tutorials
+    password: ${SPRINGBOOT_TUTORIALS_MYSQL_PASSWORD}

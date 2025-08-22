@@ -18,9 +18,9 @@ public class DemoController {
         return "SkyWalking";
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/testIgnore")
     public String hello() {
-        return "Hello SkyWalking!";
+        return "SkyWalking TestIgnore!";
     }
 
 }

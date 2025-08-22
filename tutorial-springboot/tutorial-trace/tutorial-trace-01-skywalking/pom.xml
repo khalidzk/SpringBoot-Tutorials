@@ -14,6 +14,7 @@
 
     <modules>
         <module>tutorial-trace-01-skywalking-springmvc</module>
+        <module>tutorial-trace-01-skywalking-mysql</module>
     </modules>
 
 </project>
