@@ -6,15 +6,14 @@
 
     <parent>
         <groupId>com.khalidlife.springboot.tutorials</groupId>
-        <artifactId>tutorial-springboot</artifactId>
+        <artifactId>tutorial-trace</artifactId>
         <version>${revision}</version>
     </parent>
     <packaging>pom</packaging>
-    <artifactId>tutorial-trace</artifactId>
+    <artifactId>tutorial-trace-01-skywalking</artifactId>
 
     <modules>
-        <module>tutorial-trace-01-jardemo</module>
-        <module>tutorial-trace-01-skywalking</module>
+        <module>tutorial-trace-01-skywalking-springmvc</module>
     </modules>
 
 </project>
