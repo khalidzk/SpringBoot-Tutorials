@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author khalid
  */
 @SpringBootApplication
-public class Application {
+public class TutorialTrace01JarDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(TutorialTrace01JarDemoApplication.class, args);
     }
 
 }
